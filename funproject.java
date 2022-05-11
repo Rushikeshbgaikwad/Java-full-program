@@ -8,7 +8,7 @@ public class funproject {
         int num = (int)(Math.random()*100);
         int num1,n=1;
         System.out.println("GUESS THE NUMBER !");
-        while(n<9) {
+        while(n<15) {
             System.out.print("Enter your number = ");
             num1=sc.nextInt();
             if (num1==num){
